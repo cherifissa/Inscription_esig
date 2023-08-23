@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inscription ESIG</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="submit_button">Valider</string>
+    <string name="name_hint">Nom de l\'étudiant</string>
+    <string name="first_name_hint">Prénoms de l\'étudiant</string>
+    <string name="email_hint">Adresse email de l\'étudiant</string>
+    <string name="gender_hint">Sexe de l\'étudiant</string>
+    <string name="age_hint">L\âge de l\'étudiant</string>
+    <string name="phone_hint">Numéro de téléphone de l\'étudiant</string>
+    <string name="display_activity_title">Détails de l\'inscription</string>
+    <string name="invalid_field_error">Ce champ est obligatoire</string>
+</resources>
