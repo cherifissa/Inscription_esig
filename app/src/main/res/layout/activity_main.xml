@@ -1,18 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Bienvenu"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/rectangle_shape"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textViewSavedNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@drawable/textbackground"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/textViewSavedPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@drawable/textbackground"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewSavedEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@drawable/textbackground"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewSavedAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@drawable/textbackground"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewSavedNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@drawable/textbackground"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:textSize="17dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:text="@string/btn_deconnexion" />
+    </LinearLayout>
+</LinearLayout>
